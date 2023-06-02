@@ -30,5 +30,6 @@ while game_is_on:
     # check if turtle crosses
     if player.at_finish_line():
         player.restart_player()
+        car_manager.next_level()
 
 screen.exitonclick()
